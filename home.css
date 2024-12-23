@@ -5,7 +5,7 @@
     font-family: Arial, sans-serif;
 }
 
-/* Body Styles */
+
 body  {
     background: url('homepagephoto.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -17,7 +17,7 @@ body, h1, h2, h3, p, a, span {
     font-family: 'Reem Kufi', Arial, sans-serif;
 }
 
-/* Container and Background */
+
 .container {
     text-align: center;
     padding: 50px 20px;
@@ -30,11 +30,11 @@ body, h1, h2, h3, p, a, span {
     border-radius: 10px;
 }
 
-/* Content Section */
+
 .content h1 {
     font-size: 3rem;
     margin-bottom: 20px;
-    color: #fd8f44 ; /* Gold */
+    color: #fd8f44 ; 
 }
 
 .content h1 span {
@@ -63,7 +63,7 @@ body, h1, h2, h3, p, a, span {
     background: #f58504;
 }
 
-/* Cards Section */
+
 .cards {
     display: flex;
     justify-content: center;
@@ -72,7 +72,7 @@ body, h1, h2, h3, p, a, span {
     margin-top: 50px;
 }
 
-/* Individual Card Styling */
+
 .cards a {
     display: block;
     width: 220px;
@@ -92,14 +92,14 @@ body, h1, h2, h3, p, a, span {
     transform: scale(1.05);
 }
 
-/* Card Heading */
+
 .cards h3 {
     font-size: 1.3rem;
     margin-bottom: 15px;
-    color: #fd8f44 ; /* Gold */
+    color: #fd8f44 ; 
 }
 
-/* Card Image */
+
 .cards img {
     width: 100%;
     border-radius: 8px;
@@ -163,14 +163,14 @@ body, h1, h2, h3, p, a, span {
 }
 
 .footer .social-icons a:hover {
-    color: #fd8f44; /* Gold */
+    color: #fd8f44; 
 }
 .social-icons {
     display: flex;
     gap: 15px;
 }
 
-/* Icon Styling */
+
 .icon {
     display: flex;
     justify-content: center;
@@ -184,7 +184,7 @@ body, h1, h2, h3, p, a, span {
     transition: background-color 0.3s ease-in-out, transform 0.2s;
 }
 
-/* Specific Icon Colors */
+
 .facebook {
     background-color: #3b5998;
 }
@@ -201,7 +201,7 @@ body, h1, h2, h3, p, a, span {
     background-color: #0077b5;
 }
 
-/* Hover Effect */
+
 .icon:hover {
     transform: scale(1.1);
     filter: brightness(1.2);
