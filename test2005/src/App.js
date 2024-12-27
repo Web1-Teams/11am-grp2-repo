@@ -2,14 +2,13 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header'; 
 import Navbar from './components/Navbar/Navbar';
-// مكون الرأس
-import yyImage from './assets/yy.jpg'; // تأكد من مسار الصورة
+
 
 const App = () => {
   return (
     <Router>
       <div className="App">
-        {/* تمرير القيم إلى مكون Header عبر props */}
+        
         <Header 
           title="مدونة أفق" 
           subtitle="محتوى يستحق القراءة" 
@@ -32,7 +31,7 @@ const App = () => {
         </div>
 
         
-        <Navbar /> {/* مكون الشريط العلوي */}
+        <Navbar /> 
         
         <Routes>
           <Route path="/home" element={<div>Home Page</div>} />
