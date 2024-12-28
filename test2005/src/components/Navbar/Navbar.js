@@ -23,9 +23,9 @@ const Navbar = () => {
   return (
     <header className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div className="navbar__nav container">
-        {/* Logo */}
+       
         <a href="#" className="navbar__logo"><span>أفق</span></a>
-        {/* Menu */}
+     
         <div className="navbar__menu">
           <ul className="navbar__menu-list">
             <li className="navbar__menu-item">
@@ -51,7 +51,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        {/* Login Button */}
+     
         <a href="#" className="navbar__login-button">Login</a>
       </div>
     </header>
