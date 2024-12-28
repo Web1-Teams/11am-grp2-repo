@@ -12,25 +12,7 @@ const App = () => {
         <Header 
           title="مدونة أفق" 
           subtitle="محتوى يستحق القراءة" 
-          
-
         />
-        <div className="intro-paragraph">
-          <p>fgrkgprgkrfpgkrpgrkg</p>
-          <p>fgrkgprgkrfpgkrpgrkg</p>
-          <p>fgrkgprgkrfpgkrpgrkg</p>
-          <p>fgrkgprgkrfpgkrpgrkg</p>
-          <p>fgrkgprgkrfpgkrpgrkg</p>
-          <p>fgrkgprgkrfpgkrpgrkg</p>
-          <p>fgrkgprgkrfpgkrpgrkg</p>
-          <p>fgrkgprgkrfpgkrpgrkg</p>
-          <p>fgrkgprgkrfpgkrpgrkg</p>
-          <p>fgrkgprgkrfpgkrpgrkg</p>
-          <p>fgrkgprgkrfpgkrpgrkg</p>
-          <p>هذه مدونة تقدم محتوى مميزًا حول مختلف المواضيع. تجد هنا مقالات عن السياحة، الفن، الثقافة، والمزيد. نتمنى أن تستمتع بتصفح المقالات وأن تجد ما يهمك.</p>
-        </div>
-
-        
         <Navbar /> 
         
         <Routes>
