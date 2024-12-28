@@ -12,9 +12,10 @@ const App = () => {
         <Header 
           title="مدونة أفق" 
           subtitle="محتوى يستحق القراءة" 
+          backgroundImage="https://i.pinimg.com/736x/07/50/81/0750817f271177230fd0cd8741aa33e8.jpg"
         />
         <Navbar /> 
-        
+      
         <Routes>
           <Route path="/home" element={<div>Home Page</div>} />
           <Route path="/hotels" element={<div>Hotels Page</div>} />

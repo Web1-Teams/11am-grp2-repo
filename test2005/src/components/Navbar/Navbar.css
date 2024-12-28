@@ -30,7 +30,7 @@ li {
 }
 
 img {
-    width: 100%;
+    width: 90%;
 }
 
 section {
@@ -98,6 +98,7 @@ section {
 .navbar__menu-link {
     color: var(--highlight-color);
     transition: color 0.3s;
+
 }
 
 .navbar__menu-link:hover {
