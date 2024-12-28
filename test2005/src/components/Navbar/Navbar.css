@@ -10,10 +10,10 @@
 }
 
 :root {
-    --container-color: #1a1a21;
-    --highlight-color: #fd8f44;
-    --text-color: #172317;
-    --background-color:rgba(0, 0, 0, 0.922);
+    --container-color: #c4c4f0;
+    --highlight-color:#ff7f50;
+    --text-color: #ffffff;
+    --background-color: black;
 }
 
 ::selection {
@@ -87,6 +87,7 @@ section {
     justify-content: center;
     align-items: center;
     margin-left: 14%;
+    font-weight: 700;
 }
 
 .navbar__menu-item {
@@ -113,5 +114,6 @@ section {
 }
 
 .navbar__login-button:hover {
-    background: hsl(24, 98%, 58%);
+    background: rgb(248, 236, 237);
+    color: hsl(24, 98%, 58%);
 }
