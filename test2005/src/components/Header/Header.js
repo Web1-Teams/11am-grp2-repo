@@ -4,7 +4,9 @@ import './Header.css';
 const Header = (props)  => {
   return (
 
-    <div className="home">
+    <div className="home" style={{
+      backgroundImage: `url(${props.backgroundImage})`,}}
+      >
       <div className="home-text">
       
 
