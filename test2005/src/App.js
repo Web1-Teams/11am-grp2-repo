@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Pages/Home';
@@ -17,6 +17,7 @@ function App() {
     <Router>
       
       <Navbar />
+      
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/hotels" element={<Hotels />} />
@@ -27,6 +28,7 @@ function App() {
         <Route path="/who-we-are" element={<WhoWeAre />} />
       </Routes>
     </Router>
+    
   );
 }
 
