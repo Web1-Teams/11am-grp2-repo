@@ -3,7 +3,7 @@ import './cards.css'
 
 const Card = (props) =>{
     return(
-        <div  className='card-box'>
+        <div  className='card-box'  id ={props.id}>
             <img src={props.img}  alt='img'    />
               <div className='desc'>
                  <h2 className='name' >{props.name}</h2>
