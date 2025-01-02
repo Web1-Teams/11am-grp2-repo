@@ -52,7 +52,7 @@ const Navbar = () => {
           </ul>
         </div>
      
-        <a href="#" className="navbar__login-button">Login</a>
+        <a href="/login" className="navbar__login-button">Login</a>
       </div>
     </header>
   );
