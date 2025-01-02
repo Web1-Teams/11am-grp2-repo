@@ -12,6 +12,7 @@ import WhoWeAre from './components/Pages/WhoWeAre';
 import Contact from './components/Pages/Contact';
 
 
+
 function App() {
   return (
     <Router>
@@ -26,8 +27,21 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/who-we-are" element={<WhoWeAre />} />
       </Routes>
+      
+      <Navbar />
+    
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/hotels" element={<Hotels />} />
+        <Route path="/tourist-places" element={<TouristPlaces />} />
+        <Route path="/restaurants" element={<Restaurants />} />
+        <Route path="/contact-us" element={<Contact/>} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/who-we-are" element={<WhoWeAre />} />
+      </Routes>
     </Router>
   );
 }
+
 
 export default App;
