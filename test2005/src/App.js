@@ -1,11 +1,14 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header/Header'; 
+
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+
 import Navbar from './components/Navbar/Navbar';
+import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import '@fortawesome/fontawesome-free/css/all.min.css'; 
 import useVisitCount from './components/Hooks/Useeffect';
-import "./App.css"
+import "./App.css";
+
 const App = () => {
   const visitCount = useVisitCount();
   return (
@@ -13,8 +16,8 @@ const App = () => {
       <div className="App">
         
         <Header 
-          title="الصفحة الرئيسية" 
-          
+          title="مدونة أفق" 
+          subtitle="محتوى يستحق القراءة" 
           
 
         />
@@ -30,7 +33,7 @@ const App = () => {
           <p>fgrkgprgkrfpgkrpgrkg</p>
           <p>fgrkgprgkrfpgkrpgrkg</p>
           <p>fgrkgprgkrfpgkrpgrkg</p>
-          
+          <p>هذه مدونة تقدم محتوى مميزًا حول مختلف المواضيع. تجد هنا مقالات عن السياحة، الفن، الثقافة، والمزيد. نتمنى أن تستمتع بتصفح المقالات وأن تجد ما يهمك.</p>
         </div>
 
         
@@ -45,6 +48,7 @@ const App = () => {
           <Route path="/blog" element={<div>Blog Page</div>} />
           <Route path="/who-we-are" element={<div>Who We Are Page</div>} />
         </Routes>
+        
       </div>
       <div className="visit-count">
         {visitCount === 1 ? (
@@ -56,6 +60,6 @@ const App = () => {
       <Footer />
     </Router>
   );
-};
+}
 
 export default App;
