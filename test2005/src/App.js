@@ -1,18 +1,33 @@
+import React from 'react';
 
-import './App.css';
-import AllCards from './Components/AllCards';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+
+import Navbar from './components/Navbar/Navbar';
+import Home from './components/Pages/Home';
+import Hotels from './components/Pages/Hotel'
+import TouristPlaces from './components/Pages/TouristPlaces';
+import Restaurants from './components/Pages/Restaurants';
+import Blog from './components/Pages/Blog';
+import WhoWeAre from './components/Pages/WhoWeAre';
+import Contact from './components/Pages/Contact';
 
 
 function App() {
   return (
-    
-      <div className ="App">
-      <AllCards/>
+    <Router>
       
-    </div>
-    
+      <Navbar />
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/hotels" element={<Hotels />} />
+        <Route path="/tourist-places" element={<TouristPlaces />} />
+        <Route path="/restaurants" element={<Restaurants />} />
+        <Route path="/contact-us" element={<Contact/>} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/who-we-are" element={<WhoWeAre />} />
+      </Routes>
+    </Router>
   );
- 
 }
 
 export default App;

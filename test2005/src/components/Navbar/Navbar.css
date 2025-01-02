@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap');
+
+* {
+    font-family: "Reem Kufi", serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    box-sizing: border-box;
+}
+
+:root {
+    --container-color: #c4c4f0;
+    --highlight-color:#ff7f50;
+    --text-color: #ffffff;
+    --background-color: black;
+}
+
+::selection {
+    color: var(--background-color);
+    background: var(--highlight-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 90%;
+}
+
+section {
+    padding: 3rem 0 2rem;
+}
+
+.container {
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+    background-color: transparent;
+    transition: background-color 0.4s, box-shadow 0.4s;
+}
+
+.navbar.scrolled {
+    background-color: var(--background-color);
+    box-shadow: 0 1px 4px hsl(0, 4%, 14%, 0.1);
+}
+
+.navbar__logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--background-color);
+}
+
+.navbar__logo span {
+    color: var(--highlight-color);
+}
+
+.navbar__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+}
+
+.navbar__menu {
+    width: 900px;
+    display: flex;
+    justify-content: flex-end;
+    direction: rtl;
+}
+
+.navbar__menu-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14%;
+    font-weight: 700;
+}
+
+.navbar__menu-item {
+    margin-left: 49px;
+  
+}
+
+.navbar__menu-link {
+    color: var(--highlight-color);
+    transition: color 0.3s;
+
+}
+
+.navbar__menu-link:hover {
+    color: rgb(203, 32, 40);
+}
+
+.navbar__login-button {
+    padding: 8px 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 4px;
+    background: var(--highlight-color);
+    color: var(--background-color);
+    transition: background-color 0.3s;
+}
+
+.navbar__login-button:hover {
+    background: rgb(248, 236, 237);
+    color: hsl(24, 98%, 58%);
+}
