@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Pages/Home';
-import Hotels from './components/Pages/Hotel'
+import Hotels from './components/Pages/Hotels'
 import TouristPlaces from './components/Pages/TouristPlaces';
 import Restaurants from './components/Pages/Restaurants';
 import Blog from './components/Pages/Blog';
