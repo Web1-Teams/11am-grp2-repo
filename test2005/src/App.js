@@ -1,33 +1,33 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header/Header'; 
+
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+
 import Navbar from './components/Navbar/Navbar';
+import Home from './components/Pages/Home';
+import Hotels from './components/Pages/Hotels';
+import TouristPlaces from './components/Pages/TouristPlaces';
+import Restaurants from './components/Pages/Restaurants';
+import Blog from './components/Pages/Blog';
+import WhoWeAre from './components/Pages/WhoWeAre';
+import Contact from './components/Pages/Contact';
 
 
-const App = () => {
+function App() {
   return (
     <Router>
-      <div className="App">
-        
-        <Header 
-          title="مدونة أفق" 
-          subtitle="محتوى يستحق القراءة" 
-          backgroundImage="https://i.pinimg.com/736x/07/50/81/0750817f271177230fd0cd8741aa33e8.jpg"
-        />
-        <Navbar /> 
       
-        <Routes>
-          <Route path="/home" element={<div>Home Page</div>} />
-          <Route path="/hotels" element={<div>Hotels Page</div>} />
-          <Route path="/tourist-places" element={<div>Tourist Places Page</div>} />
-          <Route path="/restaurants" element={<div>Restaurants Page</div>} />
-          <Route path="/contact-us" element={<div>Contact Us Page</div>} />
-          <Route path="/blog" element={<div>Blog Page</div>} />
-          <Route path="/who-we-are"  />
-        </Routes>
-      </div>
+      <Navbar />
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/hotels" element={<Hotels />} />
+        <Route path="/tourist-places" element={<TouristPlaces />} />
+        <Route path="/restaurants" element={<Restaurants />} />
+        <Route path="/contact-us" element={<Contact/>} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/who-we-are" element={<WhoWeAre />} />
+      </Routes>
     </Router>
   );
-};
+}
 
 export default App;
