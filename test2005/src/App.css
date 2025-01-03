@@ -7,13 +7,7 @@
   padding: 40px;
   background: #f7f7f7;
 }
-.card-boxx{
-  display:flex ;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 5px;
-}
+
 .App {
   text-align: center;
 }
