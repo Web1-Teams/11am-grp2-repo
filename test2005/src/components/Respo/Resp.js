@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Resp.css'; 
-
+import { Link } from 'react-router-dom';
 const Resp = () => {
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
 
@@ -22,34 +22,36 @@ const Resp = () => {
 
       {isSidebarVisible && (
         <ul className="side">
-          <li>
             <button onClick={hideSidebar}>
               <svg xmlns="http://www.w3.org/2000/svg" height="27px" viewBox="0 -960 960 960" width="27px" fill="#e8eaed">
                 <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
               </svg>
             </button>
-          </li>
-          <li><a href="index.html">الرئيسية</a></li>
-          <li><a href="hotel.html">فنادق</a></li>
-          <li><a href="Tourist places.html">أماكن سياحية</a></li>
-          <li><a href="Restaurants.html">مطاعم</a></li>
-          <li><a href="Blog.html">مدونة</a></li>
-          <li><a href="Who we are.html">من نحن</a></li>
+
+          <li><Link to="/home">الرئيسية</Link></li>
+          <li><Link to="/hotels">فنادقنا</Link></li>
+          <li><Link to="/tourist-places">أماكن سياحية</Link></li>
+          <li><Link to="/restaurants">مطاعم</Link></li>
+          <li><Link to="/blog">مدونة</Link></li>
+          <li><Link to="/who-we-are">من نحن؟</Link></li>
         </ul>
+    
       )}
 
-      {!isSidebarVisible && (
-        <ul>
-          <li className="hideli"><a href="index.html">الرئيسية</a></li>
-          <li className="hideli"><a href="hotel.html">فنادق</a></li>
-          <li className="hideli"><a href="Tourist places.html">أماكن سياحية</a></li>
-          <li className="hideli"><a href="Restaurants.html">مطاعم</a></li>
-          <li className="hideli"><a href="Blog.html">مدونة</a></li>
-          <li className="hideli"><a href="Who we are.html">من نحن</a></li>
-        </ul>
-      )}
+
+        {!isSidebarVisible && (
+        <ul className="hide">
+          <li className="hide-li"><Link to="/home">الرئيسية</Link></li>
+          <li className="hide-li"><Link to="/hotels">فنادقنا</Link></li>
+          <li className="hide-li"><Link to="/tourist-places">أماكن سياحية</Link></li>
+          <li className="hide-li"><Link to="/restaurants">مطاعم</Link></li>
+          <li className="hide-li"><Link to="/blog">مدونة</Link></li>
+          <li className="hide-li"><Link to="/who-we-are">من نحن؟</Link></li>
+        </ul>
+      )}
     </div>
   );
 };
+
 
 export default Resp;
