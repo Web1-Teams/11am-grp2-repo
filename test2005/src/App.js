@@ -4,7 +4,9 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Pages/Home';
+
 import Hotels from './components/Pages/Hotels';
+
 import TouristPlaces from './components/Pages/TouristPlaces';
 import Restaurants from './components/Pages/Restaurants';
 import Blog from './components/Pages/Blog';
@@ -17,6 +19,7 @@ function App() {
     <Router>
       
       <Navbar />
+
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/hotels" element={<Hotels />} />
@@ -27,6 +30,7 @@ function App() {
         <Route path="/who-we-are" element={<WhoWeAre />} />
       </Routes>
     </Router>
+    
   );
 }
 
