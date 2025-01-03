@@ -17,7 +17,7 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    background-image: url('https://i.pinimg.com/736x/14/33/0c/14330c0fb03e7a7280e8aa60410f24af.jpg');
+                                           
     background-size: cover; 
     background-position: center;
     }
@@ -42,3 +42,5 @@
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
             }
 
+
+            
