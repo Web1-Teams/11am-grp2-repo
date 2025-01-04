@@ -1,8 +1,21 @@
 import React from 'react';
 
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 import Navbar from './components/Navbar/Navbar';
+import Login from './components/Login/Login';
+import Home from './components/Pages/Home';
+import Hotels from './components/Pages/Hotels';
+import TouristPlaces from './components/Pages/TouristPlaces';
+import Restaurants from './components/Pages/Restaurants';
+import Contact from './components/Pages/Contact';
+import Blog from './components/Pages/Blog';
+import WhoWeAre from './components/Pages/WhoWeAre';
+import Signup from './components/Login/Signup';
+
+
+
+
 
 
 const App = () => {
@@ -18,6 +31,10 @@ const App = () => {
         <Route path="/contact-us" element={<Contact/>} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/who-we-are" element={<WhoWeAre />} />
+        <Route path="/login" element={<Login/>} />
+        <Route path="/signup" element={<Signup/>} />
+        <Route path="/hotels" element={<Hotels/>} />
+
       </Routes>
     </Router>
   );
