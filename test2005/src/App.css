@@ -1,20 +1,4 @@
 .App {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 40px;
-  background: #f7f7f7;
-}
-.card-boxx{
-  display:flex ;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 5px;
-}
-.App {
   text-align: center;
 }
 
@@ -52,6 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.visit-count {
+  max-width: 600px;
+  margin: 20px auto; 
+  padding: 20px; 
+  background-color:rgba(0, 0, 0, 0.6);
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(211, 26, 26, 0.1); 
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+
+.visit-count p {
+  font-size: 1.2rem; 
+  line-height: 1.6; 
+  margin: 10px 0; 
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #fff3e0;
+  color: #e65100; 
+  border: 1px solid #ffcc80;
+}
+
+
 
 
 

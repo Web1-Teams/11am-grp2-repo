@@ -14,6 +14,6 @@ const Card = (props) =>{
                  <a  href={props.site}>الموقع</a>
               </div>
         </div>
-    )
-}
+    );
+};
 export default Card

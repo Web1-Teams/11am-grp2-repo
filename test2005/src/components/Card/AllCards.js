@@ -13,8 +13,8 @@ const AllCards =() => {
                 
                
             </div>
-          )
+          );
    
-}
+};
 
 export default AllCards
