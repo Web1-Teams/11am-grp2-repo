@@ -20,6 +20,7 @@ const useVisitCount = () => {
     }
     
   }, []);
+  
 
   return visitCount;
 };
