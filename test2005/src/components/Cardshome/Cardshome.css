@@ -7,11 +7,16 @@
   }
   
 
-  body {
+  .page-body {
     background: url("../../assets/homepagephoto.jpg") no-repeat center center fixed;
     background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     color: white;
     font-family: "Arial", sans-serif;
+    
   }
   
   body, h1, h2, h3, p, a, span {

@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import CardFilter from '../CardFilter/CardFilter';
 import Header from '../Header/Header';
 import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
+import Resp from '../Recp/Resp';
 const Touristplaces = () => {
 
   const [filterValue, setFilterValue] = useState("");
@@ -224,7 +226,7 @@ const Touristplaces = () => {
             
        title = 'أهلا بك في الأماكن السياحية'
        subtitle = 'نقدم لك الاماكن التي تهم كل سائح'
-       backgroundImage ="/images/bacg.jpg"
+       backgroundImage ="https://i.pinimg.com/736x/df/b7/88/dfb788c694baebe2836572cf6c9d0128.jpg"
       />
     <h1>الأماكن السياحية في الضفة الغربية</h1>
     <CardFilter setFilterValue={setFilterValue} />
@@ -241,6 +243,8 @@ const Touristplaces = () => {
         />
       ))}
     </div>
+    <Resp/>
+    <Footer/>
     </div>
   );
 };

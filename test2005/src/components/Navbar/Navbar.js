@@ -6,6 +6,7 @@ import './Navbar.css';
 
 
 const Navbar = () => {
+  
   const [scrolled, setScrolled] = useState(false);
 
   const handleScroll = () => {

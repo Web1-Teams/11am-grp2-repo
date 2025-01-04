@@ -3,6 +3,7 @@ import CardFilter from '../CardFilter/CardFilter';
 import Card  from "../Card/Card";
 import Header from '../Header/Header';
 import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 
 import "./Hotels.css";
 import hotel1 from '../../assets/hotel1J.jpg';
@@ -33,6 +34,7 @@ import hotel1JER from '../../assets/hotel1JER.jpg'
 import hotel2JER from '../../assets/hotel2JER.jpg'
 import hotel3JER from '../../assets/hotel3JER.jpg'
 import hotel4JER from '../../assets/hotel4JER.jpg'
+import Resp from '../Recp/Resp';
 
 
 const Hotels =()=>{
@@ -315,6 +317,8 @@ const Hotels =()=>{
           ))
         }
       </div>
+      <Resp/>
+    <Footer/>
     </div>
     )
 }
