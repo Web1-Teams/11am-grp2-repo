@@ -430,13 +430,8 @@ const Restaurants = () => {
         
        
     ];
-
-
-    
-    
-      
-       
-     const filteredRestaurants = restaurants.filter((restaurant) =>
+  
+    const filteredRestaurants = restaurants.filter((restaurant) =>
           filterValue === "" || restaurant.category=== filterValue
       );
 
@@ -454,6 +449,7 @@ const Restaurants = () => {
             
             <h1>مطاعم الضفة الغربية</h1>
             <CardFilter setFilterValue={setFilterValue} />
+            
             
             <div className="card-container">
             {filteredRestaurants.map((restaurant) => (
