@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 import Navbar from './components/Navbar/Navbar';
@@ -21,10 +22,13 @@ import Signup from './components/Login/Signup';
 
 
 
+
 const App = () => {
   return (
     <Router>
-      
+      <div className="App">
+        
+        
       <Navbar />
 
       <Routes>
@@ -40,6 +44,8 @@ const App = () => {
         <Route path="/hotels" element={<Hotels/>} />
 
       </Routes>
+      </div>
+
     </Router>
     
   );
