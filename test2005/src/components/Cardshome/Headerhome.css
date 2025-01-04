@@ -1,0 +1,19 @@
+
+.header-home {
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6); 
+   
+}
+
+  
+  .main-title {
+    font-size: 2.5rem;
+    color: #fd8f44;
+    margin-bottom: 10px; 
+    margin-top: 120px;
+  }
+
+  
