@@ -4,7 +4,7 @@ import './Header.css';
 const Header = (props)  => {
   return (
 
-    <div className="home" style={{
+    <div className="home" style= {{
       backgroundImage: `url(${props.backgroundImage})`,}}
       >
       <div className="home-text">
@@ -17,4 +17,4 @@ const Header = (props)  => {
   );
 };
 
-export default Header;
+export default Header
