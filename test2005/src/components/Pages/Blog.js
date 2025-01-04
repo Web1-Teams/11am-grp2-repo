@@ -1,9 +1,8 @@
 import React from 'react';
 import Header from '../Header/Header';
-import Navbar from '../Navbar/Navbar';
-import PostBox from '../PostB/PostBox';
+import Navbar from '../Navbar/Navbar';git add -A
+
 import PostContainer from '../PostB/PostContainer';
-import PostFilter from '../PostB/PostFilter';
 
  
 const Blog = () => {
