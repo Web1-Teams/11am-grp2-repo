@@ -10,9 +10,13 @@ const Home = () => {
       <Navbar />
       <Headerhome />
       <Cardshome />
+
       <Footer />
     </div>
   );
 };
 
+
 export default Home;
+
+

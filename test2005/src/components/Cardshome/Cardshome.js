@@ -9,7 +9,7 @@ import resImg from "../../assets/res.jpg";
 
 const Cardshome = () => {
   return (
-    <div>
+    <div className="page-body">
       
       <Headerhome />
 

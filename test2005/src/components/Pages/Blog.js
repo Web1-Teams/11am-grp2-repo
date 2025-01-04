@@ -1,14 +1,15 @@
 import React from 'react';
 import Header from '../Header/Header';
 import Navbar from '../Navbar/Navbar';
-
+import Footer from '../Footer/Footer';
 import PostContainer from '../PostB/PostContainer';
+
 
  
 const Blog = () => {
     return (
       <div>
-         <Navbar/>
+         <Navbar  />
           <Header
           title="مدونة أفق"  
           subtitle="مدونة تستحق قراءة" 
@@ -17,6 +18,8 @@ const Blog = () => {
          />
         
          <PostContainer/>
+       
+         <Footer/>
        
       </div>
         );
