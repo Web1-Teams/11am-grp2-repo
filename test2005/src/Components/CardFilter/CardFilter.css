@@ -1,0 +1,26 @@
+.post-filter{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  direction: rtl;
+  padding-right: -290px;
+}
+.filter-item{
+  margin: 0 10px;
+  padding: 16px 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #e0e0e0;
+  color: #333;
+  font-size: 14px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.filter-item:hover{
+  background-color: #007BFF;
+  color: #fff;
+}
+
+/* .active-filter {
+  background-color: #007BFF;
+  color: #fff;
+} */

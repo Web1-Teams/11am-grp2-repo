@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-//import './PostFilter.css'; 
+import './CardFilter.css'; 
 
 function CardFilter({ setFilterValue }) {
   const handleClick = (filter) => {
@@ -10,34 +10,64 @@ function CardFilter({ setFilterValue }) {
     <div className="post-filter container">
       <span
         className="filter-item"
-        onClick={() => handleClick("الكل")}
-      >
-        الكل
-      </span>
+        onClick={() => handleClick("")}
+      > الكل</span>
+      
       <span
         className="filter-item"
         onClick={() => handleClick("نابلس")}
-      >
-        نابلس
-      </span>
+      >نابلس</span>
+
       <span
         className="filter-item"
         onClick={() => handleClick("اريحا")}
-      >
-          اريحا
-      </span>
+      >اريحا</span>
+
       <span
         className="filter-item"
         onClick={() => handleClick("طولكرم")}
-      >
-        طولكرم
-      </span>
+      >طولكرم</span>
+
       <span
         className="filter-item"
         onClick={() => handleClick("القدس")}
-      >
-        القدس
-      </span>
+      >القدس</span>
+
+      <span
+        className="filter-item"
+        onClick={() => handleClick("الخليل")}
+      >الخليل</span>
+
+      <span
+        className="filter-item"
+        onClick={() => handleClick("بيت لحم")}
+      >بيت لحم</span>
+
+      <span
+        className="filter-item"
+        onClick={() => handleClick("قلقيلية")}
+      >قلقيلية</span>
+
+       <span
+        className="filter-item"
+        onClick={() => handleClick("رام الله والبيرة")}
+      >رام الله والبيرة</span>
+      
+      <span
+        className="filter-item"
+        onClick={() => handleClick("طوباس")}
+      >طوباس</span>
+
+<span
+        className="filter-item"
+        onClick={() => handleClick("سلفيت")}
+      >سلفيت</span>
+
+<span
+        className="filter-item"
+        onClick={() => handleClick("جنين")}
+      >جنين</span>
+
     </div>
   );
 }
