@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../Header/Header';
-import Navbar from '../Navbar/Navbar';git add -A
+import Navbar from '../Navbar/Navbar';
 
 import PostContainer from '../PostB/PostContainer';
 

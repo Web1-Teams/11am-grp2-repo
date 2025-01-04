@@ -1,12 +1,12 @@
-.post-filter{
+.card-filter{
   display: flex;
- justify-content:center;
+ justify-content:flex-start;
   direction: rtl;
   padding-right: -290px;
 }
-.filter-item{
+.filterItem{
   margin: 0 10px;
-  padding: 16px 10px;
+  padding: 10px 16px;
   cursor: pointer;
   border-radius: 20px;
   background-color: #e0e0e0;
@@ -14,7 +14,7 @@
   font-size: 14px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-.filter-item:hover{
+.filterItem:hover{
   background-color: #f8ae68;
   color: #fff;
 }
