@@ -4,7 +4,7 @@ import Header from '../Header/Header';
 import Navbar from '../Navbar/Navbar';
 import Paragraph from '../Paragraph/Paragraph';
 import Footer from '../Footer/Footer';
-import Resp from '../Recp/Resp';
+
 
  
 const WhoWeAre = () => {
@@ -17,7 +17,7 @@ const WhoWeAre = () => {
           backgroundImage="https://i.pinimg.com/736x/e7/39/dd/e739dd7f2cde2df40689f79cd0c3ee94.jpg"
           /> 
          <Paragraph/>
-         <Resp/>
+        
          <Footer/>
 
 

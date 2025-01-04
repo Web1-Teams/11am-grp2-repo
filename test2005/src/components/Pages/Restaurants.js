@@ -6,7 +6,7 @@ import '../Card/cards.css'
 import Navbar from '../Navbar/Navbar';
 import CardFilter from '../CardFilter/CardFilter';
 import Footer from '../Footer/Footer';
-import Resp from '../Recp/Resp';
+
 
 const Restaurants = () => {
 
@@ -466,7 +466,7 @@ const Restaurants = () => {
                     />
                 ))}
             </div>
-            <Resp/>
+        
            <Footer/>
         </div>
     );

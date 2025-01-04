@@ -4,7 +4,7 @@ import CardFilter from '../CardFilter/CardFilter';
 import Header from '../Header/Header';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
-import Resp from '../Recp/Resp';
+
 const Touristplaces = () => {
 
   const [filterValue, setFilterValue] = useState("");
@@ -243,7 +243,7 @@ const Touristplaces = () => {
         />
       ))}
     </div>
-    <Resp/>
+    
     <Footer/>
     </div>
   );

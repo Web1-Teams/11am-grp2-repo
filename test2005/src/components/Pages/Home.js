@@ -3,7 +3,7 @@ import Navbar from '../Navbar/Navbar';
 import Headerhome from '../Cardshome/Headerhome';
 import Cardshome from '../Cardshome/Cardshome';
 import Footer from '../Footer/Footer';
-import Resp from '../Recp/Resp';
+
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
       <Navbar />
       <Headerhome />
       <Cardshome />
-      <Resp/>
+      
       <Footer />
     </div>
   );

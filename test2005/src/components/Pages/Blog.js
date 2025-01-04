@@ -3,7 +3,7 @@ import Header from '../Header/Header';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import PostContainer from '../PostB/PostContainer';
-import Resp from '../Recp/Resp';
+
 
  
 const Blog = () => {
@@ -18,7 +18,7 @@ const Blog = () => {
          />
         
          <PostContainer/>
-        <Resp/>
+       
          <Footer/>
        
       </div>
