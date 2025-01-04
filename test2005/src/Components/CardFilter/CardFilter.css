@@ -1,7 +1,6 @@
 .post-filter{
   display: flex;
-  justify-content: center;
-  margin: 20px 0;
+ justify-content:center;
   direction: rtl;
   padding-right: -290px;
 }
@@ -16,11 +15,9 @@
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 .filter-item:hover{
-  background-color: #007BFF;
+  background-color: #f8ae68;
   color: #fff;
 }
 
-/* .active-filter {
-  background-color: #007BFF;
-  color: #fff;
-} */
+
+

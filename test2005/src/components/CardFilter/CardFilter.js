@@ -59,12 +59,12 @@ function CardFilter({ setFilterValue }) {
         onClick={() => handleClick("طوباس")}
       >طوباس</span>
 
-<span
+      <span
         className="filter-item"
         onClick={() => handleClick("سلفيت")}
       >سلفيت</span>
 
-<span
+      <span
         className="filter-item"
         onClick={() => handleClick("جنين")}
       >جنين</span>
