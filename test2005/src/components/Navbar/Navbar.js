@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import './Navbar.css'; 
 
+
+
+
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
 
@@ -24,7 +27,7 @@ const Navbar = () => {
     <header className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div className="navbar__nav container">
        
-        <a href="#" className="navbar__logo"><span>أفق</span></a>
+        <a href="/" className="navbar__logo"><span>أفق</span></a>
      
         <div className="navbar__menu">
           <ul className="navbar__menu-list">
@@ -51,8 +54,8 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-     
-        <a href="/login" className="navbar__login-button">Login</a>
+        <Link to="/login" className="navbar__login-button">Login</Link>
+
       </div>
     </header>
   );

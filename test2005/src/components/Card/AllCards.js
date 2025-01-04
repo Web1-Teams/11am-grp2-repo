@@ -12,8 +12,8 @@ const AllCards =() => {
                 site=''
                />
             </div>
-          )
+          );
    
-}
+};
 
 export default AllCards

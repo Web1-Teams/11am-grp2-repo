@@ -1,0 +1,57 @@
+.detail-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center; 
+  align-items: center;
+}
+
+.detail-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 70px; 
+}
+
+.detail-image {
+  max-height: 300px;
+  object-fit: cover;
+  width: 80%;
+  margin-top: 20px;
+}
+.detail-content {
+  font-size: 1.1rem;
+  color: #444242;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  direction: rtl; /* الكتابة من اليمين لليسار */
+  padding-right: 20px; /* إضافة مسافة أكبر من الصورة */
+  font-family: 'Arial', sans-serif; /* تحديد نوع الخط */
+  letter-spacing: 0.05em; /* تباعد الحروف */
+  text-align: justify; /* محاذاة النص بشكل مبرر */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* إضافة ظل للنص */
+  min-width: 100%; /* تحديد الحد الأدنى للعرض */
+  margin-top: 20px; /* إضافة هامش أعلى */
+  margin-right: 40px; /* إضافة هامش من الجهة اليمنى */
+}
+
+
+.detail-back-button {
+  margin-top: auto; 
+  width: 100%;
+  font-size: 1.1rem;
+  padding: 12px;
+  background-color: #ff5e5e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.detail-back-button:hover {
+  background-color: #ff2d2d;
+}
