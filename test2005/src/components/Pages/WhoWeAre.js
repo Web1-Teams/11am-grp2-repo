@@ -1,22 +1,24 @@
-import React from "react";
-import Navbar from "../Navbar/Navbar";
-import Header from "../Header/Header";
+import React from 'react';
+import Header from '../Header/Header';
+import Navbar from '../Navbar/Navbar';
+import Paragraph from '../Paragraph/Paragraph';
 
+ 
 const WhoWeAre = () => {
-  return (
-   
-<div>
-    <Navbar/>
-      <Header
-       title=""
-       subtitle="" 
-       backgroundImage="https://i.pinimg.com/736x/88/fd/19/88fd197cfabd562163658398a2cb2068.jpg"
-       />
-   
-     
+    return (
+      <div>
+         <Navbar/>
+          <Header
+          title="من نحن"
+          subtitle="لنتعرف" 
+          backgroundImage="https://i.pinimg.com/736x/e7/39/dd/e739dd7f2cde2df40689f79cd0c3ee94.jpg"
+          /> 
+         <Paragraph/>
 
+
+         
       </div>
-  );
-};
-
-export default WhoWeAre;
+        );
+      };
+      
+      export default WhoWeAre;

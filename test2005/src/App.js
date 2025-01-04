@@ -6,6 +6,14 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import useVisitCount from "./components/Hooks/Useeffect";
 import Cardshome from "./components/Cardshome/Cardshome";
 import "./App.css";
+import Home from './components/Pages/Home';
+import Hotels from './components/Pages/Hotels'
+import TouristPlaces from './components/Pages/TouristPlaces';
+import Restaurants from './components/Pages/Restaurants';
+import Blog from './components/Pages/Blog';
+import WhoWeAre from './components/Pages/WhoWeAre';
+import Contact from './components/Pages/Contact';
+import PostDetail from './components/Post/PostDetail'; 
 
 
 
