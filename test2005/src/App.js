@@ -15,7 +15,6 @@ import Signup from './components/Login/Signup';
 import PostDetail from './components/Post/PostDetail'; 
 
 
-
 function App() {
   return (
     <Router>
